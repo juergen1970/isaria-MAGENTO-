@@ -22,7 +22,7 @@ php:
 $ sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql php-soap
  
 php - module
-$ sudo apt-get install php-gd php-curl php-intl php-mbstring php-zip php-dom php-xsl php-simplexml
+$ sudo apt-get install php-gd php-curl php-intl php-mbstring php-zip php-dom php-xsl php-simplexml php-bcmath
 
 #Nach PHP Installation:
 sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
