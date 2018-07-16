@@ -23,7 +23,15 @@ $ sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql php-soap
  
 php - module
 $ sudo apt-get install php-gd php-curl php-intl php-mbstring php-zip php-dom php-xsl php-simplexml
- 
+
+#Nach PHP Installation:
+sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
+sudo a2enconf phpmyadmin.conf
+sudo systemctl reload apache2.service
+
+User: root
+PW: YES
+
 mod-rewrite
 $ a2enmod rewrite
 edit file
