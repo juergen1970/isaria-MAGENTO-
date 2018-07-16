@@ -43,7 +43,6 @@ $ sudo service apache2 restart
 composer
 $ sudo apt-get install composer
  
- 
 phpmyadmin https://www.phpmyadmin.net/downloads/
  
 # In your terminal navigate to phpmyadmin folder and copy this file. type:
@@ -51,17 +50,15 @@ phpmyadmin https://www.phpmyadmin.net/downloads/
 # $ nano config.inc.php
 # find the line with blowfish_secret then input 32 random characters, it can be less than 32 but there will be a warning ???
  
-Download Magento 2: https://github.com/magento/magento2
- 
-http://localhost/magento2/setup
- 
+Download Magento 2: www.magento.com
+
+and copy extracted folder to: /var/www/html
+  
 sudo chmod -R 777 var/pub/app/etc
- 
+
+http://localhost/magento2/setup
+
 sublime text 3
 https://www.sublimetext.com/3
- 
-reference:
-https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04
- 
- 
+
 http://devdocs.magento.com/guides/v2.1/install-gde/system-requirements-tech.html
