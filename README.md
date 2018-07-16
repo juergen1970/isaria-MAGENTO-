@@ -19,7 +19,7 @@ $ sudo apt-get install mysql-server
 $ mysql_secure_installation
  
 php:
-$ sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+$ sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql php-soap
  
 php - module
 $ sudo apt-get install php-gd php-curl php-intl php-mbstring php-zip php-dom php-xsl php-simplexml
