@@ -45,10 +45,10 @@ $ sudo apt-get install composer
  
 phpmyadmin https://www.phpmyadmin.net/downloads/
  
-# In your terminal navigate to phpmyadmin folder and copy this file. type:
-# $ cp config then press the tab, config.inc.php
-# $ nano config.inc.php
-# find the line with blowfish_secret then input 32 random characters, it can be less than 32 but there will be a warning ???
+? In your terminal navigate to phpmyadmin folder and copy this file. type:
+? $ cp config then press the tab, config.inc.php
+? $ nano config.inc.php
+? find the line with blowfish_secret then input 32 random characters, it can be less than 32 but there will be a warning ???
  
 Download Magento 2: www.magento.com
 
